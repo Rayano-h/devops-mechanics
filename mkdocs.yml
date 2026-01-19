@@ -1,0 +1,20 @@
+site_name: DevOps Mechanics
+theme:
+  name: material   # Le thème utiliser
+  language: fr     # Langue de l'interface
+  palette:         # Couleurs 
+    - scheme: default  #Mode clair 
+      primary: indigo 
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre 
+    - scheme: slate   #Mode sombre 
+      primary: indigo 
+      toggle: 
+        icon: material/brightness-4
+        name: Passer en mode clair 
+  features:        # Fonctionnalités activées 
+    - navigation.instant
+    - navigation.sections
+    - search.highlight
+    - content.code.copy 
