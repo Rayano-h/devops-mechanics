@@ -1,15 +1,18 @@
 site_name: DevOps Mechanics
+copyright: Copyright & copy, 2025 Rayano-h - DevOps Mechanics
 theme:
   name: material   # Le thème utiliser
   language: fr     # Langue de l'interface
   palette:         # Couleurs 
     - scheme: default  #Mode clair 
       primary: indigo 
+      accent: cyan
       toggle:
         icon: material/brightness-7
         name: Passer en mode sombre 
     - scheme: slate   #Mode sombre 
       primary: indigo 
+      accent: cyan
       toggle: 
         icon: material/brightness-4
         name: Passer en mode clair 
@@ -27,3 +30,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+extra: 
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Rayano-h
+      name: Mon GitHub
