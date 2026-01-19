@@ -1,17 +1,27 @@
-# Welcome to MkDocs
+# Accueil 
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Bienvenue sur ma base de connaissances DevOps & SysAdmin.
 
-## Commands
+## Sections disponibles
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### DevOps
 
-## Project layout
+- **Kubernetes** : Deployments, External Secrets, Pod Anti-Affinity, RBAC, Helm
+- **Terraform** : Modules, State Management, Providers AWS/GCP, Policy as Code
+- **CI/CD** : GitHub Actions, GitLab CI, Pipelines patterns
+- **Docker** : Images, Multi-stage builds, Docker Compose
+- **Vault** : Secrets management, Authentification
+- **Observabilité** : Prometheus, Grafana, Logs
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### SysAdmin
+
+- **Linux** : Administration système, Services, Permissions
+- **Networking** : DNS, Firewall, Load Balancing
+- **Scripting** : Bash, Python, Automatisation
+
+## À propos
+
+Cette documentation regroupe mes notes, bonnes pratiques et procédures accumulées au fil de mon expérience DevOps.
+
+!!! tip "Navigation"
+    Utilise le menu à gauche pour naviguer ou la barre de recherche en haut.
