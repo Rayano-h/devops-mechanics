@@ -18,3 +18,7 @@ theme:
     - navigation.sections
     - search.highlight
     - content.code.copy 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
